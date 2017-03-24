@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<title>Boostrap 3w1</title>
+</head>
+<body>
+<!--navigation-->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--<a class="navbar-brand" href="#">-->
+				<img src="http://www.unesco.pl/typo3temp/pics/12a9ff845b.png" alt="logo">
+				<!--</a>-->
+			</div>
+			<div id="navbar1" class="navbar-collapse collapse">		
+				<ul class="nav navbar-nav">
+					<li><a href="#">Historia</a></li>
+					<li><a href="#">Wydarzenia</a></li>
+					<li><a href="#">Kontakt</a></li>	
+				</ul>
+				<form class="navbar-form navbar-right" role="szukaj">
+					<div class="form-group">
+						<input type="text" class="form-control" name="Szukaj">
+					</div>
+					<button type="submit" class="btn btn-default">Szukaj</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<!--title-->
+	<section class="jumbotron text-center">
+		<div class="container">
+			<h1 class="text-uppercase">Katowice Miasto Muzyki <br> <small class="text-capitalize">Katowice Kreatywne Miasto UNESCO</small></h1>
+<!--modal-->
+			<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#exampleModal">Więcej</button>
+			<div id="exampleModal" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-header">
+						<h3>Katowice Miastem Muzyki UNESCO!</h3>
+					</div>
+					<div class="modal-body text-center">
+						<p>Decyzją Iriny Bokovej, Dyrektor Generalnej UNESCO, Katowice zostały Miastem Kreatywnym UNESCO jako Miasto Muzyki! Tym samym Katowice dołączyły do prestiżowej Sieci Miast Kreatywnych UNESCO. Sieć Miast Muzyki łączyła do tej pory 9 ośrodków: 6 w Europie (Bolonia, Gandawa, Glasgow, Hanower, Mannheim i Sewilla) oraz 3 pozaeuropejskie (Bogota w Kolumbii, Hamamatsu w Japonii i Brazzaville w Kongo). Katowice są pierwszym Miastem Muzyki z Europy Środkowo-Wschodniej i drugim, po Krakowie (Miasto Literatury),  Miastem Kreatywnym w Polsce.
+						Członkostwo Katowic w Sieci Miast Kreatywnych UNESCO przyniesie liczne korzyści jego mieszkańcom. Tytuł gwarantuje wzrost prestiżu miasta na arenie międzynarodowej. Rozpoznawalna na całym świecie marka Miasta Muzyki będzie znakiem jakości życia muzycznego w Katowicach. Dla miłośników muzyki obecność Katowic w Sieci Miast Kreatywnych oznacza jeszcze więcej wyjątkowych propozycji zaspokojenia muzycznej pasji, także dzięki współpracy Katowic z innymi miastami Sieci.</p>
+					</div>
+					<div class="modal-footer">
+						<!--<p>Stopka</p>-->
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Zamknij</button>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+<!--carousel-->
+	<section >
+			<div class="container">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	     				<li data-target="#myCarousel" data-slide-to="1"></li>
+	      				<li data-target="#myCarousel" data-slide-to="2"></li>
+	      				<li data-target="#myCarousel" data-slide-to="3"></li>
+	      				<li data-target="#myCarousel" data-slide-to="4"></li>
+					</ol>
+				<!--slides-->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="http://katowicemusic.com/wp-content/uploads/2016/12/kompozyt-zwot-1200x0-c-default.jpg" alt="image">
+						</div>
+						<div class="item">
+							<img src="http://en.unesco.org/creative-cities/sites/creative-cities/files/styles/creative_city_940_420/public/Katowice2.jpg?itok=YlfhGsly" alt="image">
+						</div>
+						<div class="item">
+							<img src="http://en.unesco.org/creative-cities/sites/creative-cities/files/katowice2.jpg" alt="image">
+						</div>
+						<div class="item">
+							<img src="https://pbs.twimg.com/media/CWC4F_8VAAAqpcm.jpg" alt="image">
+						</div>
+						<div class="item">
+							<img src="http://www.nospr.org.pl/media/versions/newsy/fb_miasto_muzyki_wiwat_post_plnews_detail_view.jpg" alt="image">
+						</div>
+					</div>
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	      				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	      				<span class="sr-only">Previous</span>
+	    			</a>
+	    			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	      				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	      				<span class="sr-only">Next</span>
+	    			</a>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--table-->
+	<section>
+		<div class="container">
+	  		<h2 class="text-center text-uppercase">Cykliczne muzyczne wydarzenia</h2>
+	  		<!--<div class="table-responsive">-->
+		  		<table class="table">
+		    		<thead>
+						<tr>
+			        		<th>Lp</th>
+			        		<th>Nazwa</th>
+			        		<th>Rodzaj</th>
+			        		<th>Gdzie</th>
+		     	 		</tr>
+		    		</thead>
+		    		<tbody">
+		     			<tr>
+					        <td>1</td>
+					        <td>OFF Festival</td>
+					        <td>Alternatywa</td>
+					        <td>Dolina Trzech Stawów</td>
+		      			</tr>
+		      			<tr>
+					        <td>2</td>
+					        <td>Tauron Nowa Muzyka</td>
+					        <td>Elektronika</td>
+					        <td>Dawna Kopalnia Katowice, Strefa Kultury</td>
+		     		 	</tr>
+		     		 	<tr>
+					        <td>3</td>
+					        <td>Ars Cameralis</td>
+					        <td>Alternatywa</td>
+					        <td>Katowice,Śląska</td>
+		      			</tr>
+		      			<tr>
+					        <td>4</td>
+					        <td>Katowice Jazz Art Festival</td>
+					        <td>Jazz</td>
+					        <td>Jazz Club Hipnoza</td>
+		      			</tr>
+		      			<tr>
+					        <td>5</td>
+					        <td>Rawa Blues</td>
+					        <td>Blues</td>
+					        <td>Spodek</td>
+		      			</tr>
+		      			<tr>
+					        <td>6</td>
+					        <td>Mayday</td>
+					        <td>Techno</td>
+					        <td>Spodek</td>
+			      		</tr>
+			       		<tr>
+					        <td>7</td>
+					        <td>Festiwal Katowice Kultura Natura</td>
+					        <td>Muzyka poważna</td>
+					        <td>NOSPR -Narodowa Orkiestra Symfoniczna Polskiego Radia</td>
+		      			</tr>
+		      			<tr>
+					       <td>8</td>
+					       <td>Festiwal Muzyki Świata Ogrody Dźwięków</td>
+					       <td>Folk</td>
+					       <td>Instytucja Miasto Ogrodów</td>
+				    	</tr>
+				    	<tr>
+					       <td>9</td>
+					       <td>Urodziny Miasta Kocham Katowice</td>
+					       <td>Każdy gatunek</td>
+					       <td>Strefa Kultury</td>
+		      			</tr>
+		     			<tr>
+					       <td>10</td>
+					       <td>Biuro Dźwięku Katowice</td>
+					       <td>Elektronika</td>
+					       <td>Instytucja Miasto Ogrodów</td>
+			      		</tr>      
+		    		</tbody>
+		  		</table>
+		  	<!--</div>-->	
+		</div>
+	</section>
+<!--gallery-->
+	<section class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="http://faroutmagazine.co.uk/wp/wp-content/uploads/2016/03/OFF-Festival-preview.jpg">
+					<div class="caption text-center">
+						<h4>OFF Festival, Dolina 3 Stawów w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="http://kinkyowl.pl/wp-content/uploads/2016/03/Tauron-Nowa-Muzyka.jpeg">
+					<div class="caption text-center">
+						<h4>Tauron Nowa Muzyka, Strefa Kultury w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="http://fabrykapikseli.pl/arscam2015/admin/img/strona/20151019124020.jpg">
+					<div class="caption text-center">
+						<h4>Ars Cameralis, Jazz Club Hipnoza w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="https://cdn.nowiny.pl/im/v1/news-900-widen-wm/2015/09/13/111914_1442176969_15857600.jpg">
+					<div class="caption text-center">
+						<h4>Urodziny Miasta Katowice, teren dawnej Kopalni Katowice</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="http://4fun.tv/assets/media/aktualnosci/mayday_driver.jpg">
+					<div class="caption text-center">
+						<h4>Mayday, Spodek w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="http://images.gildia.pl/_n_/komiks/news/2016/04/muzyczny-komiks-na-zywo-w-katowicach/1-560.jpg">
+					<div class="caption text-center">
+						<h4>Katowice Jazz Art Festival, Instytucja Miasto Ogrodów w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="https://cdn.nowiny.pl/im/v1/gallery-900-widen-wm/2015/10/06/349273_1444151530_77546600.jpg">
+					<div class="caption text-center">
+						<h4>Rawa Blues, Spodek w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="http://bi.gazeta.pl/im/cd/41/f9/z16335309V,Jak-wedlug-uczestnikow-warsztatow-Biuro-Dzwieku-br.jpg">
+					<div class="caption text-center">
+						<h4>Biuro Dżwięku Katowice, Walcownia Huty Cynku w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="http://www.shadowbox.cz/data/texy/2016/08/original/7agyzwex46.57b4919ab9755.jpg">
+					<div class="caption text-center">
+						<h4>Taurona Nowa Muzyka, Fabryka Porcelany w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="http://www.muno.pl/static/obrazy/news2015/offfestival2016lineup.jpg">
+					<div class="caption text-center">
+						<h4>OFF Festival, Dolina 3 Stawów w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="http://www.nospr.org.pl/media/versions/sg/sg_nospr_hp_item.jpg">
+					<div class="caption text-center">
+						<h4>Festiwal Katowice Kultura Natura, NOSPR w Katowicach</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="https://d-nm.ppstatic.pl/k/r/b1/7a/57d26982627f6_o.jpg?1473407396">
+					<div class="caption text-center">
+						<h4>Urodziny Miasta Katowice, Mariacka</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--jumbotron-->
+	<section class="jumbotron text-center theme">
+			<div class="container">
+				<h2 class="text-uppercase">Europejskie festiwale w Katowicach</h2>
+				<p><strong>Tauron Nowa Muzyka</strong> został trzykrotnie zwycięzcą prestiżowego plebiscytu <strong> European Festival Awards w kategorii Best Small Festival</strong> w roku 2010, 2012 i 2014. Jak na razie jest to jedyny tak utytułowany festiwal w Europie.<br><strong>OFF Festival</strong> również otrzymał nagrodę wyżej wspomnianego konkursu, tylko że w kategorii <strong>Best Medium Festival</strong> w 2012 roku. Od wielu lat co roku jest nominowany i prawie zawsze dochodzi do ścisłego finału. Od dwóch lat również znajduję się w finale dla nagrody <strong>Green Operations Award</strong> jako najbardziej ekologiczny festival w Europie.</p>
+			</div>
+	</section>
+<!--media & frame-->
+	<section>
+		<div class="container">
+			<div class="row row-x">
+				<div class="col-xs-12 col-md-8">
+					<div class="media">
+						<div class="media-left">
+							<a href="http://off-festival.pl/pl">
+								<img class="media-object" src="http://festivus.pl/wp-content/uploads/2016/11/off-festival-2017.jpg" width="200px" height="200px" alt="image">
+							</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heating">OFF Festival Katowice</h4>
+							<p>"OFF Festival powstał w 2006 roku nie po to, by się wszystkim podobać, ale po to, by intrygować, zadawać pytania, oburzać, prowokować do dyskusji, inspirować. Oczywiście, cieszą nas wasze pochwały, wyrazy uznania ze strony mediów i liczne nagrody, ale jeszcze bardziej cieszą nas pomysły, które narodziły się na naszym festiwalu. Inspiracje, które przełożyły się na waszą sztukę, pracę i życie prywatne. Bo nawet jeśli muzyka nie zmienia świata – nikt nas nie zmusi, byśmy przestali próbować."</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4 video">
+					<div class="embed-responsive embed-responsive-16by9">
+	  					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VOykyikewxE" allowfullscreen=""></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="row row-x">
+				<div class="col-xs-12 col-md-8">
+					<div class="media">
+						<div class="media-left">
+							<a href="http://festiwalnowamuzyka.pl/">
+								<img class="media-object" src="http://www.ticketpro.pl/public/b2/9d/20/2036565_1320455_tnm_360x360.jpg" width="200px" height="200px" alt="image">
+							</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heating">"Tauron Nowa Muzyka</h4>
+							<p>"Od samego początku chcieliśmy pokazywać polskiej publiczności to co najciekawsze i niebanlane we współczesnej muzyce z pogranicza jazzu, elektroniki i tanecznych rytmów, udowadniając jednocześnie, że da się połączyć zabawę w historycznych, postindustrialnych kopalnianych lokalizacjach. Połączenie nowoczesnych brzmień z historycznym dziedzictwem Górnego śląska okazało się doskonała receptą na sukces."</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4 video">
+					<div class="embed-responsive embed-responsive-16by9">
+	  					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/abpEr2fcRZY" allowfullscreen=""></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--form-->
+	<section class="form">
+		<div class="container">
+			<form>
+	  			<label for="exampleInputEmail2">E-mail:</label><br>
+	  			<input type="email" class="form-control" id="exampleInputEmail2" name="email" placeholder="przykladowy.adres@example.com"><br><br>
+	  			<label for="exampleInputEmail2">Nick:</label><br>
+	  			<input type="text" class="form-control" name="name" placeholder="Jan"><br><br>
+	  			<label>Wiadomość:</label><br>
+	  			<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea><br>
+	  			<input type="submit" class="form-control" value="Potwierdź">
+			</form>
+		</div>
+	</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
